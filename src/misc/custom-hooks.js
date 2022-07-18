@@ -1,5 +1,5 @@
 import { useReducer, useEffect, useState } from 'react';
-import { apiGet } from './config';
+import { apiGet } from './Config';
 
 function showsReducer(prevState, action) {
   switch (action.type) {
